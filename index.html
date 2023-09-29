@@ -50,10 +50,12 @@
 <!-- Formulario -->
    <div id="formulario">
     <br><br><h1 id="TituloFormulario">Conheça mais sobre nossos serviços:</h1><br><br> <br>
-    <form>
-        <input type="text" placeholder="Nome"><br> <br> <br>
-        <input type="email" placeholder="Email"><br> <br> <br>
-        <button>Fale Conosco</button>
+    <form action=" https://api.sheetmonkey.io/form/dfkX92u4sAiyvhrdr64BkU" method="post">
+        <input type="text" placeholder="Nome" name="Name" required ><br> <br> <br>
+        <input type="email" placeholder="Email" name="Email" required><br> <br> <br>
+        <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+
+        <button type="submit">Fale Conosco</button>
     </form>
     </div>
    <script src="index.js" > </script>
